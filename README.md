@@ -3,7 +3,7 @@ Predictive modeling project for Nile, a leading Brazilian eCommerce platform, fo
 
 Nile eCommerce Review Prediction
 
-This repository contains the implementation of a machine learning project developed as part of the Analytics in Practice module at the University of Warwick. The goal was to build a predictive model for Nile, a major Brazilian eCommerce platform, to identify customers most likely to leave positive reviews (4–5 stars). Online reviews are a critical factor influencing buyer trust and sales performance, and this project helps Nile optimize marketing strategies and resource allocation through data-driven targeting.
+This repository contains the implementation of a machine learning project as a group assignment developed as part of the Analytics in Practice module at the University of Warwick. The goal was to build a predictive model for Nile, a major Brazilian eCommerce platform, to identify customers most likely to leave positive reviews (4–5 stars). Online reviews are a critical factor influencing buyer trust and sales performance, and this project helps Nile optimize marketing strategies and resource allocation through data-driven targeting.
 
 🎯 Objectives
 Predict whether a customer will leave a positive review using historical order and customer data.
