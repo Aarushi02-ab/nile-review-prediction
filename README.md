@@ -9,18 +9,24 @@ This repository contains the implementation of a machine learning project develo
 Predict whether a customer will leave a positive review using historical order and customer data.
 Prioritize precision to minimize false positives and reduce wasted outreach to unlikely reviewers.
 Assist Nile's marketing team in launching targeted review incentivisation campaigns.
+
 🧠 Features
 Binary classification model (Positive = 1 for 4–5 stars, 0 otherwise).
 Used Random Forest and Gradient Boosted Decision Trees (GBDT).
 Feature engineering based on customer behavior, product details, and delivery performance.
 Addressed class imbalance, missing values, outliers, and data leakage.
 Focused on repeat customers for better performance generalization.
+
 🧪 Key Results
 Precision (Test Set):
+
 Random Forest: 0.888
+
 GBDT: 0.886
+
 Final Model: Optimized Random Forest, chosen for balanced feature importance and higher reliability.
 Model not significantly affected by class imbalance; recall for both classes remained high (>0.89).
+
 🔧 Deployment Plan
 Model ready for deployment via REST API using Flask or FastAPI.
 Accepts customer input and returns prediction in real time.
